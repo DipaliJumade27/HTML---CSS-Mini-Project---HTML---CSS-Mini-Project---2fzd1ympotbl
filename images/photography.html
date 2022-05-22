@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Project</title>
+    <style>
+        body{
+            cursor:pointer;
+            height: auto;
+            margin: 0;
+            background: #eee;
+        }
+        .diiv{
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            
+            justify-content: center;
+            /* align-items: center; */
+            /* width: 50%; */
+            /* box-sizing: border-box; */
+            /* width: 100%; */
+        }
+        div {
+            display: block;
+            /* text-align: center; */
+        }
+        img{
+            width: 100%;
+            /* display: inline; */
+            align-self: center;
+
+        }
+        #landing {
+           display:grid ;
+            grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* align-content: center; */
+            /* margin:auto; */
+            background-color: white;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            /* height: 50vh; */
+            /* flex-shrink: ; */
+
+        }
+
+        #button {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 1rem;
+            padding: 8px;
+            text-decoration: none;
+            /* color: white; */
+            cursor: pointer;
+            /* margin:10px; */
+
+
+        }
+        .footer{
+            text-align: center;
+        }
+        #header-1 {
+            padding: 1.5rem;
+            text-align: center;
+            background-color: rgb(8 8 8 / 60%);
+            text-align: center;
+            color: white;
+            margin-top: 2.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .work {
+            display: inline;
+            /* border-style: dashed; */
+            border-left: dotted 2px white;
+            border-right: dotted 2px white;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        #images{
+            display: grid;
+            grid-template-rows: auto;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #button:hover {
+            background-color: rgba(110, 105, 105, 0.295);
+            color: white;
+
+        }
+        .header{
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="diiv">
+    <div id="landing">
+        <div class="header img">
+            <h1>ACME</h1>
+            <h1>PHOTOGRAPHY</h1>
+            <h2 style="word-break: break-word; color: rgb(70, 68, 68);">Beautiful Natural Photography</h2>
+            <a href="#images" id="button">View Work</a>
+        </div>
+        <div class="header">
+            <img class="img" src="pexels-andre-furtado-1264210.jpg" alt="" height="400" width="400">
+        </div>
+    </div>
+    <div id="images">
+        <div id="header-1">
+            <h2 class="work">Our Work</h2>
+        </div>
+        <img src="pexels-abhinav-goswami-674804.jpg" alt="work">
+        <div class="caption">
+            <h2>Photo One</h2>
+            <p style="word-break: break-word;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet repellat a?</p>
+        </div>
+        <img src="pexels-athena-1804169.jpg" alt="work">
+        <div class="caption">
+            <h2>Photo Two</h2>
+            <p style="word-break: break-word;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet repellat a?</p>
+        </div>
+        <img src="pexels-dominika-roseclay-5462555.jpg" alt="work">
+        <div class="caption">
+            <h2>Photo Three</h2>
+            <p style="word-break: break-word;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet repellat a?</p>
+        </div>
+        <img src="pexels-porapak-apichodilok-346694.jpg" alt="work">
+        <div class="caption">
+            <h2>Photo Four</h2>
+            <p style="word-break: break-word;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet repellat a?</p>
+        </div>
+        <img src="pexels-pixabay-532891.jpg" alt="work">
+        <div class="caption">
+            <h2>Photo Five</h2>
+            <p style="word-break: break-word;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet repellat a?</p>
+        </div>
+        
+        
+    </div>
+    <footer class="footer">
+        <h1 style="word-break: break-word;">Contact Us For Booking</h1>
+        <p style="word-break: break-word;">Email or call us to set up a consult.</p>
+        <p style="word-break: break-word;">Email :<b>ashutosh26108300@gmail.com</b></p>
+        <p style="word-break: break-word;">Contact No: <b>8209618507</b></p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
