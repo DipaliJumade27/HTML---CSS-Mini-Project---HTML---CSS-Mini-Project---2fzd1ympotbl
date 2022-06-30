@@ -21,7 +21,7 @@ div {
 }
 img{
     width: 100%;
-    /* display: inline; */
+  display:block;
     align-self: center;
 
 }
