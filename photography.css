@@ -20,10 +20,9 @@ div {
     /* text-align: center; */
 }
 img{
-    width: 100%;
-  display:block;
+   width: 100%;
+  display: block;
     align-self: center;
-
 }
 #landing {
    display:grid ;
