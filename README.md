@@ -1,6 +1,6 @@
 ## About Website
 
-It is a front-end responsive website for a photography. The site is developed using HTML and CSS. There is only one webpage which is divided in 6 sections.
+It is a front-end responsive website for a photography. The site is developed using HTML and CSS. There is only one webpage which is divided in different sections.
 
 Intro Section - In this section added background image and on that image written website name, and with the hidden navigation bar when you hover on the navbar symbol it will display the list and list is lliked with their sections.
 
