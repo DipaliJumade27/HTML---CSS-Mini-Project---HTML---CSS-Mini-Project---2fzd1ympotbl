@@ -1,12 +1,25 @@
-It is a front-end website for a photography. The site is developed using HTML and CSS. There is only one webpage which is divided in 4 sections.
+## About Website
 
-Intro Section - In this section added background image and on that image written website name, one input tag and two anchor tags for login page and sign up pagelogin and sign up open in diffrent pages.
+It is a front-end responsive website for a photography. The site is developed using HTML and CSS. There is only one webpage which is divided in 6 sections.
 
-About Section - This section shows photography in a very awesome way.Photos are in various heights in multiple rows. The image transfer scale when user hovers over them and added a button name explore button which explore more images.
+Intro Section - In this section added background image and on that image written website name, and with the hidden navigation bar when you hover on the navbar symbol it will display the list and list is lliked with their sections.
 
-portfolio section - added about.
+About Section -In this section it is about photography and the website with the model photo. 
 
-services section
+portfolio section - In this different photos are there with the same size for showing the work of website and has hover effect on each photo, we can view the full size photo by clickinng on the image.
 
-contact section
-footer Section - added copy right.
+services section-In this section services given by the website and below that i added a parallax image to give website a different look.
+
+contact section-In which there is a contact info and if we click on the email then it will directed to the user email.
+
+there is two footer section
+
+footer Section - Added social media icons with the there links and hover effect.
+
+footer Section2 - added copy right.
+
+## Tech stack
+I have use the HTML and CSS.
+
+Used google fonts in the website.
+Used hover effect and linked navbar to the each section.
